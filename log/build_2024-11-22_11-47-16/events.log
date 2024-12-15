@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.011128] (ros2_exercises) JobQueued: {'identifier': 'ros2_exercises', 'dependencies': OrderedDict()}
+[0.011230] (ros2_exercises) JobStarted: {'identifier': 'ros2_exercises'}
+[0.087027] (-) TimerEvent: {}
+[0.187640] (-) TimerEvent: {}
+[0.288192] (-) TimerEvent: {}
+[0.388816] (-) TimerEvent: {}
+[0.489672] (-) TimerEvent: {}
+[0.590415] (-) TimerEvent: {}
+[0.690978] (-) TimerEvent: {}
+[0.791517] (-) TimerEvent: {}
+[0.892025] (-) TimerEvent: {}
+[0.992524] (-) TimerEvent: {}
+[1.093127] (-) TimerEvent: {}
+[1.193705] (-) TimerEvent: {}
+[1.294231] (-) TimerEvent: {}
+[1.394721] (-) TimerEvent: {}
+[1.495244] (-) TimerEvent: {}
+[1.595751] (-) TimerEvent: {}
+[1.696455] (-) TimerEvent: {}
+[1.797042] (-) TimerEvent: {}
+[1.898359] (-) TimerEvent: {}
+[1.998931] (-) TimerEvent: {}
+[2.099452] (-) TimerEvent: {}
+[2.200364] (-) TimerEvent: {}
+[2.300935] (-) TimerEvent: {}
+[2.401454] (-) TimerEvent: {}
+[2.502332] (-) TimerEvent: {}
+[2.602822] (-) TimerEvent: {}
+[2.686656] (ros2_exercises) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/tyamada/exercises_ws/build/ros2_exercises/build', '--no-deps', 'symlink_data'], 'cwd': '/home/tyamada/exercises_ws/build/ros2_exercises', 'env': {'VNCDESKTOP': 'f603fee22d16:1 (tyamada)', 'QT_SCALE_FACTOR': '1', 'USER': 'tyamada', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': 'f603fee22d16', 'XDG_SESSION_TYPE': 'x11', '__GLX_VENDOR_LIBRARY_NAME': 'nvidia', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tyamada', 'OLDPWD': '/home/tyamada/exercises_ws/src', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/tyamada/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-NA95zF29Rw,guid=b29e0f09e4c07e054250e47667405f7f', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2163', 'GNOME_KEYRING_CONTROL': '/home/tyamada/.cache/keyring-O2N3X2', 'COLCON_PREFIX_PATH': '/home/tyamada/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/f603fee22d16:@/tmp/.ICE-unix/818,unix/f603fee22d16:/tmp/.ICE-unix/818', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'EXERCISES_WS': '/home/tyamada/exercises_ws', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/tyamada/.cache/keyring-O2N3X2/ssh', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/tyamada/ros2_ws/install/andino_gz:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'TERMINATOR_UUID': 'urn:uuid:0811f270-8f47-414b-9339-1322813549f6', 'VNC_PASSWORD': '', 'IGN_GAZEBO_RESOURCE_PATH': '/home/tyamada/ros2_ws/install/andino_gz/share/andino_gz/models', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/tyamada/exercises_ws/build/ros2_exercises', 'PASSWORD': '', 'PYTHONPATH': '/home/tyamada/exercises_ws/build/ros2_exercises/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tyamada/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages:/home/tyamada/ros2_ws/install/andino_gz/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tyamada/ros2_ws/install/andino_gz', 'ROS2_WS': '/home/tyamada/ros2_ws', 'QT_FONT_DPI': '96'}, 'shell': False}
+[2.703147] (-) TimerEvent: {}
+[2.803824] (-) TimerEvent: {}
+[2.904463] (-) TimerEvent: {}
+[3.005030] (-) TimerEvent: {}
+[3.105525] (-) TimerEvent: {}
+[3.206165] (-) TimerEvent: {}
+[3.306676] (-) TimerEvent: {}
+[3.407266] (-) TimerEvent: {}
+[3.507756] (-) TimerEvent: {}
+[3.608336] (-) TimerEvent: {}
+[3.699700] (ros2_exercises) StdoutLine: {'line': b'running develop\n'}
+[3.700518] (ros2_exercises) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.700772] (ros2_exercises) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.708483] (-) TimerEvent: {}
+[3.808973] (-) TimerEvent: {}
+[3.909753] (-) TimerEvent: {}
+[4.012075] (-) TimerEvent: {}
+[4.112581] (-) TimerEvent: {}
+[4.132078] (ros2_exercises) StdoutLine: {'line': b'running egg_info\n'}
+[4.132430] (ros2_exercises) StdoutLine: {'line': b'creating ros2_exercises.egg-info\n'}
+[4.132819] (ros2_exercises) StdoutLine: {'line': b'writing ros2_exercises.egg-info/PKG-INFO\n'}
+[4.133095] (ros2_exercises) StdoutLine: {'line': b'writing dependency_links to ros2_exercises.egg-info/dependency_links.txt\n'}
+[4.133345] (ros2_exercises) StdoutLine: {'line': b'writing entry points to ros2_exercises.egg-info/entry_points.txt\n'}
+[4.133616] (ros2_exercises) StdoutLine: {'line': b'writing requirements to ros2_exercises.egg-info/requires.txt\n'}
+[4.133933] (ros2_exercises) StdoutLine: {'line': b'writing top-level names to ros2_exercises.egg-info/top_level.txt\n'}
+[4.134100] (ros2_exercises) StdoutLine: {'line': b"writing manifest file 'ros2_exercises.egg-info/SOURCES.txt'\n"}
+[4.140848] (ros2_exercises) StdoutLine: {'line': b"reading manifest file 'ros2_exercises.egg-info/SOURCES.txt'\n"}
+[4.141687] (ros2_exercises) StdoutLine: {'line': b"writing manifest file 'ros2_exercises.egg-info/SOURCES.txt'\n"}
+[4.143410] (ros2_exercises) StdoutLine: {'line': b'running build_ext\n'}
+[4.143746] (ros2_exercises) StdoutLine: {'line': b'Creating /home/tyamada/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages/ros2-exercises.egg-link (link to .)\n'}
+[4.145256] (ros2_exercises) StdoutLine: {'line': b'Installing odometry_publisher script to /home/tyamada/exercises_ws/install/ros2_exercises/lib/ros2_exercises\n'}
+[4.145594] (ros2_exercises) StdoutLine: {'line': b'\n'}
+[4.145767] (ros2_exercises) StdoutLine: {'line': b'Installed /home/tyamada/exercises_ws/build/ros2_exercises\n'}
+[4.146052] (ros2_exercises) StdoutLine: {'line': b'running symlink_data\n'}
+[4.146257] (ros2_exercises) StdoutLine: {'line': b'creating /home/tyamada/exercises_ws/install/ros2_exercises/share/ament_index\n'}
+[4.146379] (ros2_exercises) StdoutLine: {'line': b'creating /home/tyamada/exercises_ws/install/ros2_exercises/share/ament_index/resource_index\n'}
+[4.146477] (ros2_exercises) StdoutLine: {'line': b'creating /home/tyamada/exercises_ws/install/ros2_exercises/share/ament_index/resource_index/packages\n'}
+[4.146637] (ros2_exercises) StdoutLine: {'line': b'symbolically linking /home/tyamada/exercises_ws/build/ros2_exercises/resource/ros2_exercises -> /home/tyamada/exercises_ws/install/ros2_exercises/share/ament_index/resource_index/packages\n'}
+[4.146727] (ros2_exercises) StdoutLine: {'line': b'symbolically linking /home/tyamada/exercises_ws/build/ros2_exercises/package.xml -> /home/tyamada/exercises_ws/install/ros2_exercises/share/ros2_exercises\n'}
+[4.213194] (-) TimerEvent: {}
+[4.217636] (ros2_exercises) CommandEnded: {'returncode': 0}
+[4.261128] (ros2_exercises) JobEnded: {'identifier': 'ros2_exercises', 'rc': 0}
+[4.262391] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+[4.513s] Invoking command in '/home/tyamada/exercises_ws/build/path_planner_example': PYTHONPATH=/home/tyamada/exercises_ws/build/path_planner_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tyamada/exercises_ws/install/path_planner_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tyamada/exercises_ws/build/path_planner_example/build --no-deps symlink_data
+[6.601s] running develop
+[7.526s] running egg_info
+[7.526s] writing path_planner_example.egg-info/PKG-INFO
+[7.530s] writing dependency_links to path_planner_example.egg-info/dependency_links.txt
+[7.530s] writing entry points to path_planner_example.egg-info/entry_points.txt
+[7.530s] writing requirements to path_planner_example.egg-info/requires.txt
+[7.531s] writing top-level names to path_planner_example.egg-info/top_level.txt
+[7.538s] reading manifest file 'path_planner_example.egg-info/SOURCES.txt'
+[7.541s] writing manifest file 'path_planner_example.egg-info/SOURCES.txt'
+[7.545s] running build_ext
+[7.546s] Creating /home/tyamada/exercises_ws/install/path_planner_example/lib/python3.10/site-packages/path-planner-example.egg-link (link to .)
+[7.547s] Installing path_planner_node script to /home/tyamada/exercises_ws/install/path_planner_example/lib/path_planner_example
+[7.549s] 
+[7.549s] Installed /home/tyamada/exercises_ws/build/path_planner_example
+[7.549s] running symlink_data
+[7.700s] Invoked command in '/home/tyamada/exercises_ws/build/path_planner_example' returned '0': PYTHONPATH=/home/tyamada/exercises_ws/build/path_planner_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tyamada/exercises_ws/install/path_planner_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tyamada/exercises_ws/build/path_planner_example/build --no-deps symlink_data
