@@ -46,46 +46,46 @@ class PathPlannerNode(Node):
         response.path = create_obstacle_avoiding_plan(start_pose, goal_pose, global_costmap, time_now)
         return response
 
-def create_straight_plan(start, goal, time_now):
-    """ 
-    Creates a straight plan between start and goal points.
-    Does not use the global costmap to plan around obstacles, as normal planners would.
-    """
-    path = Path()
+# def create_straight_plan(start, goal, time_now):
+#     """ 
+#     Creates a straight plan between start and goal points.
+#     Does not use the global costmap to plan around obstacles, as normal planners would.
+#     """
+#     path = Path()
 
-    # Set the frame_id and stamp for the Path header. Use frame_id from the goal header,
-    #  and time_now for the current time.
-    path.header.frame_id = goal.header.frame_id
-    path.header.stamp = time_now
+#     # Set the frame_id and stamp for the Path header. Use frame_id from the goal header,
+#     #  and time_now for the current time.
+#     path.header.frame_id = goal.header.frame_id
+#     path.header.stamp = time_now
 
-    # Let's create a straight plan between our start and goal poses.
-    # It is not enough if we provide only the start and end positions as a path.
-    # For controller to follow path correctly, we will need to provide also
-    # points along this straight path with small intervals. There is a function
-    # "interpolate_coordinates" implemented for you that does this. It only needs
-    # the coordinates in a tuple format, for example:
-    # interpolate_coordinates((0, 0), (0, 0.5))
-    # This will give you coordinates between these two points with 0.1 interval:
-    # [(0.0, 0.0), (0.0, 0.1), (0.0, 0.2), (0.0, 0.3), (0.0, 0.4), (0.0, 0.5)]
-    # Interpolate the coordinates between start and goal positions
-    interpolated_coordinates = interpolate_coordinates(
-        (start.pose.position.x, start.pose.position.y),
-        (goal.pose.position.x, goal.pose.position.y),
-    )
-    # node.get_logger().debug('My log message %d' % (4))
-    # Loop through these interpolated coordinates and create a new PoseStamped()
-    #  message for each of them. You can set the same stamp and frame_id as for the Path().
-    #  Finally, add all of these points into the path.poses -array.
-    print(interpolated_coordinates)
-    for point in interpolated_coordinates:
-        pose = PoseStamped()
-        pose.pose.position.x = point[0]
-        pose.pose.position.y = point[1]
-        pose.header.stamp = time_now
-        pose.header.frame_id = goal.header.frame_id
-        path.poses.append(pose)
+#     # Let's create a straight plan between our start and goal poses.
+#     # It is not enough if we provide only the start and end positions as a path.
+#     # For controller to follow path correctly, we will need to provide also
+#     # points along this straight path with small intervals. There is a function
+#     # "interpolate_coordinates" implemented for you that does this. It only needs
+#     # the coordinates in a tuple format, for example:
+#     # interpolate_coordinates((0, 0), (0, 0.5))
+#     # This will give you coordinates between these two points with 0.1 interval:
+#     # [(0.0, 0.0), (0.0, 0.1), (0.0, 0.2), (0.0, 0.3), (0.0, 0.4), (0.0, 0.5)]
+#     # Interpolate the coordinates between start and goal positions
+#     interpolated_coordinates = interpolate_coordinates(
+#         (start.pose.position.x, start.pose.position.y),
+#         (goal.pose.position.x, goal.pose.position.y),
+#     )
+#     # node.get_logger().debug('My log message %d' % (4))
+#     # Loop through these interpolated coordinates and create a new PoseStamped()
+#     #  message for each of them. You can set the same stamp and frame_id as for the Path().
+#     #  Finally, add all of these points into the path.poses -array.
+#     print(interpolated_coordinates)
+#     for point in interpolated_coordinates:
+#         pose = PoseStamped()
+#         pose.pose.position.x = point[0]
+#         pose.pose.position.y = point[1]
+#         pose.header.stamp = time_now
+#         pose.header.frame_id = goal.header.frame_id
+#         path.poses.append(pose)
 
-    return path
+#     return path
 def create_obstacle_avoiding_plan(start, goal, costmap, time_now):
     path = Path()
     path.header.frame_id = goal.header.frame_id
